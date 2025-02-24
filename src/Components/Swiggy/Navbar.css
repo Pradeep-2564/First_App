@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #ff5200;
+    height: 125vh;
+}
+.content {
+    display: flex;
+}
+
+#logo {
+    height: 45px;
+    width: 150px;
+    padding: 38px 0 0 120px;
+}
+.nav-head {
+    display: inline-block;
+    position: relative;
+    left: 17vw;
+    top: 45px;
+}
+a {
+    margin: 0 20px;
+    width: 20vw;
+    text-decoration: none;
+}
+#sign-in{
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    width: 11vw;
+    background-color: black;
+    color: #fff;
+    font-size: 1.1rem;
+}
+#get-app {
+    border: 1.3px solid #fff;
+    padding: 20px 30px 20px 30px;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+#swiggy,#partner,#sign-in {
+    font-weight: bolder;
+    color: #fff;
+}
+
+#left-img{
+    width: 250px;
+    height: 450px;
+}
+#hero-text {
+    position: absolute;
+    top: 28vh;
+    left: 20vw;
+    font-size: 2.8rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+#right-img{
+    width: 235px;
+    height: 450px;
+    position: absolute;
+    top: 18vh;
+    left: 80.3vw;
+}
+.location {
+    display: flex;
+    position: absolute;
+    top: 52vh;
+    left: 16vw;
+}
+#search {
+    width: 284px;
+    height: 58px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    text-align: center;
+    background-color: #fff;
+}
+#location-icon{
+    position: relative;
+    top: 20px;
+    left: 35px;
+    color: #ff5200;
+    font-size: 1.2rem;
+}
+#location-down {
+    position: relative;
+    top: 20px;
+    right: 25px; 
+    font-size: 1.2rem;
+}
+
+.search-box{
+    display: flex;
+    position: absolute;
+    top: 52vh;
+    left: 41vw;
+}
+#search-field{
+    width: 454px;
+    height: 58px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 0 0 0 30px;
+    background-color: #fff;
+    font-size: 1rem;
+}
+#search-icon{
+    position: relative;
+    top: 20px;
+    right: 30px;
+    opacity: 40%;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content img{
+    width: 215px;
+    height: 265px;
+    position: relative;
+    bottom: 19vh;
+}

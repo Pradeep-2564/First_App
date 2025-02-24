@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+}
+th {
+    font-weight: bolder;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1.5px solid lightgoldenrodyellow;
+    padding: 10px;
+}
+caption {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+h4 {
+    text-align: center;
+}

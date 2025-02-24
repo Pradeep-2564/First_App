@@ -1,0 +1,44 @@
+.section-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#head-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-left: 10vw;
+}
+.sec-icons{
+    display: flex;
+    gap: 13px;
+    margin-right: 12vw;
+}
+.sec-icons i{
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#left-icon{
+    opacity: 35%;
+}
+
+
+/* Items */
+
+.section-container{
+    margin-bottom: 15vh;
+}
+.items {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+.item img{
+    width: 144px;
+    height: 180px;
+    cursor: pointer;
+    padding: 0 0 0 20px;
+    position: relative;
+    left: 100px;
+}
